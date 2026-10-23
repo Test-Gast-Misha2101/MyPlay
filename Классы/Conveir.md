@@ -1,6 +1,6 @@
 # Conveir
 
-**Файл:** `Machines/Conveir.cs` · **Исходник:** `Assets\Scripts\IF_move_functionals\Conveir.cs` · **Тип:** `IF_move_functional` (RequireComponent → [[Move_class]])
+**Файл:** `Machines/Conveir.cs` · **Исходник:** `Assets\Scripts\IF_move_functionals\Conveir.cs` · **Тип:** `IF_move_functional` (RequireComponent → [Move_class](Классы/Move_class.md))
 
 ## Назначение
 Конвейер — транспорт руды. Очередь из трёх слотов.
@@ -14,12 +14,12 @@
 - `get_ore_entity(...)` — заглушка (Null).
 
 ## Зависимости
-[[World_commands]] (`IF_move_functional`) · [[Move_class]] · [[ORE_BLOCK]].
+[World_commands](Классы/World_commands.md) (`IF_move_functional`) · [Move_class](Классы/Move_class.md) · [ORE_BLOCK](Классы/ORE_BLOCK.md).
 
 ## Кто использует
-[[Mine_ore]] и [[Core_res]] требуют его через RequireComponent; цепочка: Mine_ore → Conveir → Core_res.
+[Mine_ore](Классы/Mine_ore.md) и [Core_res](Классы/Core_res.md) требуют его через RequireComponent; цепочка: Mine_ore → Conveir → Core_res.
 
-← [[00 — Обзор проекта]] · [[Архитектура]]
+← [00 — Обзор проекта](00 — Обзор проекта.md) · [Архитектура](Архитектура.md)
 
 ---
-↩️ [[Содержание]]
+↩️ [Содержание](Содержание.md)

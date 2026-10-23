@@ -3,7 +3,7 @@
 **Файл:** `Utils/WorldGoDisasamble.cs` · **Исходник:** `Assets\Scripts\World\WorldGoDisasamble.cs`
 
 ## Назначение
-«Разбор и сборка» GameObject в чертёж (Blueprint) — используется [[ManagerGuiCr]] для сохранения/восстановления UI.
+«Разбор и сборка» GameObject в чертёж (Blueprint) — используется [ManagerGuiCr](Классы/ManagerGuiCr.md) для сохранения/восстановления UI.
 
 ## Содержимое
 - `VarDisasemble` (Attribute) — включать приватное поле в чертёж.
@@ -15,12 +15,12 @@
 - `GetFields` — отфильтровывает `[NonSerialized]`.
 
 ## Зависимости
-[[World_commands]] (`ProcessObjects`), UnityEngine (JsonUtility, UI).
+[World_commands](Классы/World_commands.md) (`ProcessObjects`), UnityEngine (JsonUtility, UI).
 
 ## Кто использует
-[[ManagerGuiCr]] (`wd` — сохранённый чертёж, `ReGameObject`, `Add`, `Save`).
+[ManagerGuiCr](Классы/ManagerGuiCr.md) (`wd` — сохранённый чертёж, `ReGameObject`, `Add`, `Save`).
 
-← [[00 — Обзор проекта]] · [[Архитектура]]
+← [00 — Обзор проекта](00 — Обзор проекта.md) · [Архитектура](Архитектура.md)
 
 ---
-↩️ [[Содержание]]
+↩️ [Содержание](Содержание.md)

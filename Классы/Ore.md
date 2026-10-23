@@ -11,12 +11,12 @@
   - `OnDestroy` → `Config.Destroy_obj_size_scene(...)`.
 
 ## Зависимости
-[[World_commands]] (DicVec) · [[Config]] · [[ORE_BLOCK]] (`ORE_BLOCKS.Null`).
+[World_commands](Классы/World_commands.md) (DicVec) · [Config](Классы/Config.md) · [ORE_BLOCK](Классы/ORE_BLOCK.md) (`ORE_BLOCKS.Null`).
 
 ## Кто использует
-[[Mine_ore]] (получает компонент `Ore` у добытых блоков) · [[ORE_BLOCK]].GetOreInMy.
+[Mine_ore](Классы/Mine_ore.md) (получает компонент `Ore` у добытых блоков) · [ORE_BLOCK](Классы/ORE_BLOCK.md).GetOreInMy.
 
-← [[00 — Обзор проекта]] · [[Архитектура]]
+← [00 — Обзор проекта](00 — Обзор проекта.md) · [Архитектура](Архитектура.md)
 
 ---
-↩️ [[Содержание]]
+↩️ [Содержание](Содержание.md)

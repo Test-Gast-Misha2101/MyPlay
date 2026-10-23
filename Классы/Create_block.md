@@ -15,9 +15,9 @@ public struct ResursesCraft { public string ore; public int len_ore; }
 Нет (чистая структура данных).
 
 ## Кто использует
-[[Sattings_block_cr]] (`Prefab_Go.resursesCrafts`).
+[Sattings_block_cr](Классы/Sattings_block_cr.md) (`Prefab_Go.resursesCrafts`).
 
-← [[00 — Обзор проекта]]
+← [00 — Обзор проекта](00 — Обзор проекта.md)
 
 ---
-↩️ [[Содержание]]
+↩️ [Содержание](Содержание.md)

@@ -7,7 +7,7 @@
 ## Содержимое (по классам)
 
 ### BigStringAttribute
-Атрибут `PropertyAttribute` — многострочное поле в инспекторе (отрисовывается в [[BigStringLabel]]).
+Атрибут `PropertyAttribute` — многострочное поле в инспекторе (отрисовывается в [BigStringLabel](Классы/BigStringLabel.md)).
 
 ### Vector3Int (struct)
 Целочисленная координата сетки. Конструкторы флоорают и смещают на +1/-0.5; свойства `x/y/z` возвращают «флоат-центры» клеток. Поддерживает `+`, `Equals`, `GetHashCode` (hash-множители 73856093/19349663/83492791), `ToVector3`.
@@ -41,7 +41,7 @@
 ### Базовые классы
 - `Error_duble_obg : MonoBehaviour` — защита от дублей компонентов одной группы.
 - `Errors : Error_duble_obg` — проверки `AwTestError`/`StTestError`/`UpTestError`.
-- `Triger : Errors` — подписчик событий ([[MainSystemTrigers]]).
+- `Triger : Errors` — подписчик событий ([MainSystemTrigers](Классы/MainSystemTrigers.md)).
 - `World_class_block_world : Triger` — `Date_two_list`, `CoordKey`.
 - `World_class_move : World_class_block_world` — абстракция машины-перевозчика.
 - `IF_move_functional : Triger` — абстракция логики машины.
@@ -50,9 +50,9 @@
 Только UnityEngine/JsonUtility.
 
 ## Кто использует
-Почти весь проект: [[Config]], [[Ore]], [[ORE_BLOCK]], [[Move_class]], [[Conveir]], [[Mine_ore]], [[Core_res]], [[Created_block]], [[Core_Spawn]], [[ManagerGuiCr]], [[WorldGoDisasamble]], [[ButtonCreateBlock]], [[Sattings_block_cr]] (косвенно).
+Почти весь проект: [Config](Классы/Config.md), [Ore](Классы/Ore.md), [ORE_BLOCK](Классы/ORE_BLOCK.md), [Move_class](Классы/Move_class.md), [Conveir](Классы/Conveir.md), [Mine_ore](Классы/Mine_ore.md), [Core_res](Классы/Core_res.md), [Created_block](Классы/Created_block.md), [Core_Spawn](Классы/Core_Spawn.md), [ManagerGuiCr](Классы/ManagerGuiCr.md), [WorldGoDisasamble](Классы/WorldGoDisasamble.md), [ButtonCreateBlock](Классы/ButtonCreateBlock.md), [Sattings_block_cr](Классы/Sattings_block_cr.md) (косвенно).
 
-← [[00 — Обзор проекта]] · [[Архитектура]]
+← [00 — Обзор проекта](00 — Обзор проекта.md) · [Архитектура](Архитектура.md)
 
 ---
-↩️ [[Содержание]]
+↩️ [Содержание](Содержание.md)

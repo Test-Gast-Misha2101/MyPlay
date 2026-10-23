@@ -14,12 +14,12 @@
 - В `FixedUpdate` события раздаются по одному (LIFO) всем подписчикам.
 
 ## Зависимости
-[[World_commands]] (`Triger`, `Errors`).
+[World_commands](Классы/World_commands.md) (`Triger`, `Errors`).
 
 ## Кто использует
-[[Move_class]] и [[Mine_ore]] (фильтр `Update_Block`), [[Created_block]] (сброс и перезапуск после постройки).
+[Move_class](Классы/Move_class.md) и [Mine_ore](Классы/Mine_ore.md) (фильтр `Update_Block`), [Created_block](Классы/Created_block.md) (сброс и перезапуск после постройки).
 
-← [[00 — Обзор проекта]] · [[Архитектура]]
+← [00 — Обзор проекта](00 — Обзор проекта.md) · [Архитектура](Архитектура.md)
 
 ---
-↩️ [[Содержание]]
+↩️ [Содержание](Содержание.md)

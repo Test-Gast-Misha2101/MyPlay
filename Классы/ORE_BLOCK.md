@@ -9,17 +9,17 @@
 - `class Flammogidrid : New_ore` — руда «Coal», горючая (`FireToplivo() == true`).
 - `struct Len_List_Vec` — `len` + `List<Vector3>`.
 - `class ORE_BLOCKS`:
-  - `GetOreInMy(go, ore_type)` — руды нужного типа вокруг объекта (через индекс [[Config]], тип `Mine_blick`);
+  - `GetOreInMy(go, ore_type)` — руды нужного типа вокруг объекта (через индекс [Config](Классы/Config.md), тип `Mine_blick`);
   - `Null` — пустое имя руды `""`;
   - `IfNullOre(st)`.
 
 ## Зависимости
-[[World_commands]] · [[Config]] · [[Ore]] (SattingsOre).
+[World_commands](Классы/World_commands.md) · [Config](Классы/Config.md) · [Ore](Классы/Ore.md) (SattingsOre).
 
 ## Кто использует
-[[BaseDate]] (реестр `New_ore`), [[Mine_ore]], [[Conveir]], [[Core_res]] (константа `ORE_BLOCKS.Null`).
+[BaseDate](Классы/BaseDate.md) (реестр `New_ore`), [Mine_ore](Классы/Mine_ore.md), [Conveir](Классы/Conveir.md), [Core_res](Классы/Core_res.md) (константа `ORE_BLOCKS.Null`).
 
-← [[00 — Обзор проекта]] · [[Архитектура]]
+← [00 — Обзор проекта](00 — Обзор проекта.md) · [Архитектура](Архитектура.md)
 
 ---
-↩️ [[Содержание]]
+↩️ [Содержание](Содержание.md)

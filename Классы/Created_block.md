@@ -1,6 +1,6 @@
 # Created_block
 
-**Файл:** `Player/Created_block.cs` · **Исходник:** `Assets\Scripts\Player\Created_block.cs` · **Тип:** `Errors` (RequireComponent → [[Move_person]])
+**Файл:** `Player/Created_block.cs` · **Исходник:** `Assets\Scripts\Player\Created_block.cs` · **Тип:** `Errors` (RequireComponent → [Move_person](Классы/Move_person.md))
 
 ## Назначение
 Постройка блоков игроком: призрак блока, подсветка, создание.
@@ -17,12 +17,12 @@
 - `Set_bl_cr` — создание блока: проверка лимита (`Config.Test_Cr_Bl`), слой «Collaider», `Config.Add_obg_scene`, `MainSystemTrigers.ResetClTr` + `RegistTrig(Update_Block)`.
 
 ## Зависимости
-[[Config]] · [[World_commands]] · [[Sattings_block_cr]] (Prefab_Go, PlayerBlock) · [[MainSystemTrigers]] · [[Move_person]].
+[Config](Классы/Config.md) · [World_commands](Классы/World_commands.md) · [Sattings_block_cr](Классы/Sattings_block_cr.md) (Prefab_Go, PlayerBlock) · [MainSystemTrigers](Классы/MainSystemTrigers.md) · [Move_person](Классы/Move_person.md).
 
 ## Кто использует
-[[ButtonCreateBlock]] · [[Config]].created_pl.
+[ButtonCreateBlock](Классы/ButtonCreateBlock.md) · [Config](Классы/Config.md).created_pl.
 
-← [[00 — Обзор проекта]] · [[Архитектура]]
+← [00 — Обзор проекта](00 — Обзор проекта.md) · [Архитектура](Архитектура.md)
 
 ---
-↩️ [[Содержание]]
+↩️ [Содержание](Содержание.md)
