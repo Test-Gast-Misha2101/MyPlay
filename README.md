@@ -35,9 +35,9 @@ classDiagram
 
 ```mermaid
 flowchart LR
-    Ruda[[Рудный блок<br>[Ore](Классы/Ore.md)]] --> Mine[[[[Mine_ore](Классы/Mine_ore.md)<br>добывает]]
-    Mine --> Conv[[[[Conveir](Классы/Conveir.md)<br>ведёт]]
-    Conv --> Core[[[[Core_res](Классы/Core_res.md)<br>склад]]
+    Ruda[[Рудный блок<br>Ore]] --> Mine[[Mine_ore<br>добывает]]
+    Mine --> Conv[[Conveir<br>ведёт]]
+    Conv --> Core[[Core_res<br>склад]]
     Core --> Player[Игрок<br>get_ore_entity]
     Player --> Crafter[Крафт<br>ResursesCraft]
 ```
@@ -53,8 +53,8 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    Config[["[Config](Классы/Config.md)<br>стат. API"]] --> DicVec[DicVec<br>ячейки сетки]
-    Config --> WC["[World_commands](Классы/World_commands.md)<br>GetCellCenters /<br>GetSurfaceCoordsBySide"]
+    Config[[Config<br>стат. API]] --> DicVec[DicVec<br>ячейки сетки]
+    Config --> WC[World_commands<br>GetCellCenters /<br>GetSurfaceCoordsBySide]
     Ore -->|регистрация| Config
     Created_block -->|регистрация| Config
     Move_class -->|запрос соседей| Config
@@ -68,11 +68,11 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    JSON[JSON-строка<br>stGuiJsonp] --> CGM["[Core_Spawn](Классы/Core_Spawn.md)<br>GuiCrMan"]
-    CGM --> MGC["[ManagerGuiCr](Классы/ManagerGuiCr.md)<br>JsonPManagerGuiCr"]
-    MGC --> WD["[WorldGoDisasamble](Классы/WorldGoDisasamble.md)<br>Disassemble / Assemble"]
-    MGC --> JP["[World_commands](Классы/World_commands.md)<br>JsonP (парсер)"]
-    PG["[PrefabGui](Классы/PrefabGui.md)<br>шаблоны"] -.-> MGC
+    JSON[JSON-строка<br>stGuiJsonp] --> CGM[Core_Spawn<br>GuiCrMan]
+    CGM --> MGC[ManagerGuiCr<br>JsonPManagerGuiCr]
+    MGC --> WD[WorldGoDisasamble<br>Disassemble / Assemble]
+    MGC --> JP[World_commands<br>JsonP парсер]
+    PG[PrefabGui<br>шаблоны] -.-> MGC
 ```
 
 UI собирается кодом из JSON: команды `add`/`del`/`comp`, свойства компонентов (Image, Text, Button, ScrollRect…), события через интерфейсы `JsonP.JsonPActionClass`.
