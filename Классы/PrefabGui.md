@@ -7,9 +7,9 @@
 - `Inventory` → `"{}"` — пустой JSON-шаблон инвентаря для [ManagerGuiCr](ManagerGuiCr.md).JsonPManagerGuiCr.
 
 ## Зависимости
-Нет.
+Нет
 
-← [Обзор проекта](../Obz.md)
+[Обзор проекта](../Obz.md)
 
 ---
 ↩️ [Содержание](../Содержание.md)
