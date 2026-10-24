@@ -19,12 +19,12 @@
 `Ico_Defult`, `state_create_block`, `prefabs_sattings` (ScriptableObject-пресеты блоков), `player_prefab`, `created_pl` — создание игрока и пересоздание [[ManagerGuiCr]].
 
 ## Зависимости
-[[World_commands]] (DicVec, ProcessObjects, GetCellCenters, Error), [[Sattings_block_cr]] (Prefab_Go, Sattings_Block_Created_Level), [[Move_person]], [[Created_block]], [[ManagerGuiCr]].
+[World_commands](World_command.md) (DicVec, ProcessObjects, GetCellCenters, Error), [Sattings_block_cr](Sattings_block_cr.md) (Prefab_Go, Sattings_Block_Created_Level), [Move_person](Move_person.md), [Created_block](Created_block.md), [ManagerGuiCr](ManagerGuiCr).
 
 ## Кто использует
-[[Ore]], [[Created_block]], [[Move_class]], [[Core_Spawn]], [[ORE_BLOCK]].
+[Ore](Ore.md), [Created_block](Created_block.md), [Move_class](Move_class.md), [Core_Spawn](Core_Spawn.md), [ORE_BLOCK](ORE_BLOCK.md).
 
-← [[00 — Обзор проекта]] · [[Архитектура]]
+[Обзор проекта](../obz.md) · [Архитектура](../README.md)
 
 ---
-↩️ [[Содержание]]
+↩️ [Содержание](../Содержание.md)
