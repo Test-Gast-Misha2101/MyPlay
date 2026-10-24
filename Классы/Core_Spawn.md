@@ -7,7 +7,7 @@
 
 ## Поля
 - `config` (Config), `lprefab_Go` (List\<Sattings_Block_Created_Level\>) — доступные блоки.
-- `stGuiJsonp` — JSON-описание UI, отрисовывается через атрибут [World_commands#BigStringAttribute|BigString](Классы/World_commands.md#BigStringAttribute|BigString).
+- `stGuiJsonp` — JSON-описание UI, отрисовывается через атрибут [World_commands#BigStringAttribute|BigString](World_commands.md).
 - `player`, `core_Res`, `prg` (Prefab_Go), `items` (ManagerGuiCr).
 
 ## Логика
@@ -17,9 +17,9 @@
 - `StTestError` — config и core_Res не null.
 
 ## Зависимости
-[Config](Классы/Config.md) · [World_commands](Классы/World_commands.md) · [Sattings_block_cr](Классы/Sattings_block_cr.md) · [ManagerGuiCr](Классы/ManagerGuiCr.md) · [Move_person](Классы/Move_person.md) · [Core_res](Классы/Core_res.md)
+[Config](Config.md) · [World_commands](World_commands.md) · [Sattings_block_cr](Sattings_block_cr.md) · [ManagerGuiCr](ManagerGuiCr.md) · [Move_person](Move_person.md) · [Core_res](Core_res.md)
 
-← [00 — Обзор проекта](00 — Обзор проекта.md) · [Архитектура](Архитектура.md)
+← [00 — Обзор проекта](../00 — Обзор проекта.md) · [Архитектура (README)](../README.md)
 
 ---
-↩️ [Содержание](Содержание.md)
+↩️ [Содержание](../Содержание.md)

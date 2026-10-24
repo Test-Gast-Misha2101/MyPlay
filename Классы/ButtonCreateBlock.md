@@ -11,9 +11,9 @@
 - `CreateBlock()` — `Player.Create_block_Render(sattings)`.
 
 ## Зависимости
-[Created_block](Классы/Created_block.md) · [Sattings_block_cr](Классы/Sattings_block_cr.md) (Prefab_Go) · [World_commands](Классы/World_commands.md) (Error).
+[Created_block](Created_block.md) · [Sattings_block_cr](Sattings_block_cr.md) (Prefab_Go) · [World_commands](World_commands.md) (Error).
 
-← [00 — Обзор проекта](00 — Обзор проекта.md) · [Архитектура](Архитектура.md)
+← [00 — Обзор проекта](../00 — Обзор проекта.md) · [Архитектура (README)](../README.md)
 
 ---
-↩️ [Содержание](Содержание.md)
+↩️ [Содержание](../Содержание.md)

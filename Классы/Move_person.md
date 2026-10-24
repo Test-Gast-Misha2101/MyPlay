@@ -15,12 +15,12 @@
 - `FixedUpdate` — то же условие: перемещение WASD (`Translate(vec * speed * 0.03f, Space.Self)`).
 
 ## Зависимости
-[World_commands](Классы/World_commands.md) (`Errors`).
+[World_commands](World_commands.md) (`Errors`).
 
 ## Кто использует
-[Created_block](Классы/Created_block.md) (RequireComponent, камера), [Config](Классы/Config.md).created_pl.
+[Created_block](Created_block.md) (RequireComponent, камера), [Config](Config.md).created_pl.
 
-← [00 — Обзор проекта](00 — Обзор проекта.md) · [Архитектура](Архитектура.md)
+← [00 — Обзор проекта](../00 — Обзор проекта.md) · [Архитектура (README)](../README.md)
 
 ---
-↩️ [Содержание](Содержание.md)
+↩️ [Содержание](../Содержание.md)

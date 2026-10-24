@@ -24,12 +24,12 @@ classDiagram
     IF_move_functional <|-- Core_res
 ```
 
-- **[Error_duble_obg](Классы/World_commands.md#errorduble_obg)** — защита: если на объекте два компонента одной группы, второй уничтожается (OnValidate).
-- **[Errors](Классы/World_commands.md#errors)** — единая система проверок: `AwTestError` (Awake), `StTestError` (Start), `UpTestError` (Update). Ошибка = `World_command.Error` (лог + исключение).
-- **[Triger](Классы/World_commands.md#triger)** — подписчик событий: метод `Trigers(trig)` вызывается из [MainSystemTrigers](Классы/MainSystemTrigers.md).
-- **[World_class_block_world](Классы/World_commands.md#world_class_block_world)** — база блока мира: `Date_two_list` (точка на грани), `CoordKey`.
-- **[World_class_move](Классы/World_commands.md#world_class_move)** — абстракция «машина, через которую идёт руда»: `GetSize`, `test_napr_get`, `get_ore`, `get_napr`. Реализация — [Move_class](Классы/Move_class.md).
-- **[IF_move_functional](Классы/World_commands.md#if_move_functional)** — абстракция «логика машины»: `Up_Func_Ore`, `move_ore`, `get_ore_entity`. Реализации — [Conveir](Классы/Conveir.md), [Mine_ore](Классы/Mine_ore.md), [Core_res](Классы/Core_res.md).
+- **[Error_duble_obg](Классы/Error_duble_obg.md)** — защита: если на объекте два компонента одной группы, второй уничтожается (OnValidate).
+- **[Errors](Классы/Errors.md)** — единая система проверок: `AwTestError` (Awake), `StTestError` (Start), `UpTestError` (Update). Ошибка = `World_command.Error` (лог + исключение).
+- **[Triger](Классы/Triger.md)** — подписчик событий: метод `Trigers(trig)` вызывается из [MainSystemTrigers](Классы/MainSystemTrigers.md).
+- **[World_class_block_world](Классы/World_class_block_world.md)** — база блока мира: `Date_two_list` (точка на грани), `CoordKey`.
+- **[World_class_move](Классы/World_class_move.md)** — абстракция «машина, через которую идёт руда»: `GetSize`, `test_napr_get`, `get_ore`, `get_napr`. Реализация — [Move_class](Классы/Move_class.md).
+- **[IF_move_functional](Классы/IF_move_functional.md)** — абстракция «логика машины»: `Up_Func_Ore`, `move_ore`, `get_ore_entity`. Реализации — [Conveir](Классы/Conveir.md), [Mine_ore](Классы/Mine_ore.md), [Core_res](Классы/Core_res.md).
 
 ### Поток данных (руды)
 

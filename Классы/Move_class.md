@@ -1,6 +1,6 @@
 # Move_class
 
-**Файл:** `Machines/Move_class.cs` · **Исходник:** `Assets\Scripts\IF_move_functionals\Move_class.cs` · **Тип:** `World_class_move` → [World_commands#World_class_move|базовый класс](Классы/World_commands.md#World_class_move|базовый класс)
+**Файл:** `Machines/Move_class.cs` · **Исходник:** `Assets\Scripts\IF_move_functionals\Move_class.cs` · **Тип:** `World_class_move` → [World_commands#World_class_move|базовый класс](World_commands.md)
 
 ## Назначение
 Физический «корпус» машины: грани, точки входа/выхода, поиск соседей.
@@ -13,17 +13,17 @@
 
 ## Логика
 - `Awake` — требует компонент `IF_move_functional` (делегирует ему работу с рудой).
-- `Trigers(Update_Block)` — `GetSurfaceCoordsBySide` → для каждой точки входа ищет в [Config](Классы/Config.md) объекты `Player_Block`, фильтрует по совпадению стороны (`test_napr_get` + `GetSideFacing`).
+- `Trigers(Update_Block)` — `GetSurfaceCoordsBySide` → для каждой точки входа ищет в [Config](Config.md) объекты `Player_Block`, фильтрует по совпадению стороны (`test_napr_get` + `GetSideFacing`).
 - `test_napr_get(g, dm)` — смотрит ли сторона объекта `g` на нас (INPUT/OUTPUT).
 - `UpTestError` — уникальность точек входа/выхода и отсутствие пересечений (`CoordKey`).
 
 ## Зависимости
-[World_commands](Классы/World_commands.md) · [Config](Классы/Config.md) · [MainSystemTrigers](Классы/MainSystemTrigers.md).
+[World_commands](World_commands.md) · [Config](Config.md) · [MainSystemTrigers](MainSystemTrigers.md).
 
 ## Кто использует
-[Conveir](Классы/Conveir.md), [Mine_ore](Классы/Mine_ore.md), [Core_res](Классы/Core_res.md) (через RequireComponent) — сам [Ore](Классы/Ore.md) находит руду через `World_class_move.get_ore`.
+[Conveir](Conveir.md), [Mine_ore](Mine_ore.md), [Core_res](Core_res.md) (через RequireComponent) — сам [Ore](Ore.md) находит руду через `World_class_move.get_ore`.
 
-← [00 — Обзор проекта](00 — Обзор проекта.md) · [Архитектура](Архитектура.md)
+← [00 — Обзор проекта](../00 — Обзор проекта.md) · [Архитектура (README)](../README.md)
 
 ---
-↩️ [Содержание](Содержание.md)
+↩️ [Содержание](../Содержание.md)

@@ -6,7 +6,7 @@
 Динамический менеджер UI: управление иерархией и свойствами компонентов через JSON.
 
 ## Структура
-- `mgc` — Dictionary\<string, ManagerGuiCr\> (дерево элементов); `Go` — GameObject; `wd` — чертёж ([WorldGoDisasamble#Blueprint|Blueprint](Классы/WorldGoDisasamble.md#Blueprint|Blueprint)).
+- `mgc` — Dictionary\<string, ManagerGuiCr\> (дерево элементов); `Go` — GameObject; `wd` — чертёж ([WorldGoDisasamble#Blueprint|Blueprint](WorldGoDisasamble.md)).
 - `destroyType` — карта строк → типов компонентов (Image, Text, RawImage, Mask, RectMask2D, Button, InputField, Toggle, ToggleGroup, Slider, Scrollbar, Dropdown, ScrollRect) для секции `Destroy`.
 
 ## API
@@ -24,12 +24,12 @@
 `Rect` (RectTransform), `Img`, `Text`, `RawImage`, `Mask`, `RectMask2D`, `Button`, `InputField`, `Toggle`, `ToggleGroup`, `Slider`, `Scrollbar`, `Dropdown`, `ScrollRect`, `Destroy`. События — через `JsonP.JsonPActionClass` / `JsonPActionTClass<T>` (onClick, onValueChanged, onEndEdit).
 
 ## Зависимости
-[World_commands](Классы/World_commands.md) (JsonP, DicConv, Error) · [WorldGoDisasamble](Классы/WorldGoDisasamble.md).
+[World_commands](World_commands.md) (JsonP, DicConv, Error) · [WorldGoDisasamble](WorldGoDisasamble.md).
 
 ## Кто использует
-[Core_Spawn](Классы/Core_Spawn.md) (GuiCrMan) · [Config](Классы/Config.md).created_pl (ReGameObject).
+[Core_Spawn](Core_Spawn.md) (GuiCrMan) · [Config](Config.md).created_pl (ReGameObject).
 
-← [00 — Обзор проекта](00 — Обзор проекта.md) · [Архитектура](Архитектура.md)
+← [00 — Обзор проекта](../00 — Обзор проекта.md) · [Архитектура (README)](../README.md)
 
 ---
-↩️ [Содержание](Содержание.md)
+↩️ [Содержание](../Содержание.md)
