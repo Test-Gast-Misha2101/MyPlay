@@ -21,9 +21,9 @@
 [[World_commands]] · [[Config]] · [[MainSystemTrigers]].
 
 ## Кто использует
-[[Conveir]], [[Mine_ore]], [[Core_res]] (через RequireComponent) — сам [[Ore]] находит руду через `World_class_move.get_ore`.
+[Conveir](Conveir.md), [Mine_ore](Mine_ore.md), [Core_res](Core_res.md) (через RequireComponent) — сам [Ore](Ore.md) находит руду через `World_class_move.get_ore`.
 
-← [[00 — Обзор проекта]] · [[Архитектура]]
+[Обзор проекта](../Obz.md) · [Архитектура](../README.md)
 
 ---
-↩️ [[Содержание]]
+↩️ [Содержание](../Содержание.md)
