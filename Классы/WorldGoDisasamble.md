@@ -18,9 +18,9 @@
 [[World_commands]] (`ProcessObjects`), UnityEngine (JsonUtility, UI).
 
 ## Кто использует
-[[ManagerGuiCr]] (`wd` — сохранённый чертёж, `ReGameObject`, `Add`, `Save`).
+[ManagerGuiCr](ManagerGuiCr.md) (`wd` — сохранённый чертёж, `ReGameObject`, `Add`, `Save`).
 
-← [[00 — Обзор проекта]] · [[Архитектура]]
+← [Обзор проекта](../Obz.md) · [Архитектура](../README.md)
 
 ---
-↩️ [[Содержание]]
+↩️ [Содержание](../Содержание.md)
