@@ -14,12 +14,12 @@
   - `IfNullOre(st)`.
 
 ## Зависимости
-[[World_commands]] · [[Config]] · [[Ore]] (SattingsOre).
+[World_commands](World_command.md) · [Config](Config.md) · [Ore](Ore.md) (SattingsOre).
 
 ## Кто использует
-[[BaseDate]] (реестр `New_ore`), [[Mine_ore]], [[Conveir]], [[Core_res]] (константа `ORE_BLOCKS.Null`).
+[BaseDate](Basedate.md) (реестр `New_ore`), [Mine_ore](Mine_ore.md), [Conveir](Conveir.md), [Core_res](Core_res.md) (константа `ORE_BLOCKS.Null`).
 
-← [[00 — Обзор проекта]] · [[Архитектура]]
+[Обзор проекта](../Obz.md) · [Архитектура](../README.md)
 
 ---
-↩️ [[Содержание]]
+↩️ [Содержание](../Содержание.md)
