@@ -19,9 +19,9 @@
 - `UpTestError` — все элементы `toplivo_white_list` должны быть валидным топливом.
 
 ## Зависимости
-[[World_commands]] · [[ORE_BLOCK]] · [[BaseDate]] · [[Move_class]] · [[Conveir]] · [[MainSystemTrigers]].
+[World_commands](World_command.md) · [ORE_BLOCK](ORE_BLOCK.md) · [BaseDate](BaseDate.md) · [Move_class](Move_class.md) · [Conveir](Conveir.md) · [MainSystemTrigers](MainSystemTrigers.md).
 
-← [[00 — Обзор проекта]] · [[Архитектура]]
+[Обзор проекта](../Obz.md) · [Архитектура](../README.md)
 
 ---
-↩️ [[Содержание]]
+↩️ [Содержание](../Содержание.md)
