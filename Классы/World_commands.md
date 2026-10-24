@@ -7,7 +7,7 @@
 ## Содержимое (по классам)
 
 ### BigStringAttribute
-Атрибут `PropertyAttribute` — многострочное поле в инспекторе (отрисовывается в [[BigStringLabel]]).
+Атрибут `PropertyAttribute` — многострочное поле в инспекторе (отрисовывается в [BigStringLabel](BigStringLabel.md)).
 
 ### Vector3Int (struct)
 Целочисленная координата сетки. Конструкторы флоорают и смещают на +1/-0.5; свойства `x/y/z` возвращают «флоат-центры» клеток. Поддерживает `+`, `Equals`, `GetHashCode` (hash-множители 73856093/19349663/83492791), `ToVector3`.
@@ -41,7 +41,7 @@
 ### Базовые классы
 - `Error_duble_obg : MonoBehaviour` — защита от дублей компонентов одной группы.
 - `Errors : Error_duble_obg` — проверки `AwTestError`/`StTestError`/`UpTestError`.
-- `Triger : Errors` — подписчик событий ([[MainSystemTrigers]]).
+- `Triger : Errors` — подписчик событий ([MainSystemTrigers](MainSystemTrigers.md)).
 - `World_class_block_world : Triger` — `Date_two_list`, `CoordKey`.
 - `World_class_move : World_class_block_world` — абстракция машины-перевозчика.
 - `IF_move_functional : Triger` — абстракция логики машины.
@@ -50,9 +50,9 @@
 Только UnityEngine/JsonUtility.
 
 ## Кто использует
-Почти весь проект: [[Config]], [[Ore]], [[ORE_BLOCK]], [[Move_class]], [[Conveir]], [[Mine_ore]], [[Core_res]], [[Created_block]], [[Core_Spawn]], [[ManagerGuiCr]], [[WorldGoDisasamble]], [[ButtonCreateBlock]], [[Sattings_block_cr]] (косвенно).
+Почти весь проект: [Config](Config.md), [Ore](Ore.md), [ORE_BLOCK](ORE_BLOCK.md), [Move_class](Move_class.md), [Conveir](Conveir.md), [Mine_ore](Mine_ore.md), [Core_res](Core_res.md), [Created_block](Created_block.md), [Core_Spawn](Core_Spawn.md), [ManagerGuiCr](ManagerGuiCr.md), [WorldGoDisasamble](WorldGoDisasamble.md), [ButtonCreateBlock](ButtonCreateBlock.md), [Sattings_block_cr](Sattings_block_cr.md) (косвенно).
 
-← [[00 — Обзор проекта]] · [[Архитектура]]
+[Обзор проекта](Obz.md) · [Архитектура](README.md)
 
 ---
 ↩️ [[Содержание]]
