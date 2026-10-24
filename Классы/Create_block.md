@@ -16,6 +16,7 @@ public struct ResursesCraft { public string ore; public int len_ore; }
 
 ## Кто использует
 [Sattings_block_cr](Sattings_block_cr.md) (`Prefab_Go.resursesCrafts`).
+<<<<<<< HEAD
 
 ---
 ↩️ [Содержание](../Содержание.md)
@@ -186,3 +187,10 @@ function aliceCopy(btn) {
   });
 }
 </script>
+=======
+
+← [00 — Обзор проекта](../00 — Обзор проекта.md)
+
+---
+↩️ [Содержание](../Содержание.md)
+>>>>>>> 58b679668214ac286933ee3ea99f70925b3e574d

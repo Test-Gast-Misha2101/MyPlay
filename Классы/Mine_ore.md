@@ -20,6 +20,7 @@
 
 ## Зависимости
 [World_commands](World_commands.md) · [ORE_BLOCK](ORE_BLOCK.md) · [BaseDate](BaseDate.md) · [Move_class](Move_class.md) · [Conveir](Conveir.md) · [MainSystemTrigers](MainSystemTrigers.md).
+<<<<<<< HEAD
 
 ---
 ↩️ [Содержание](../Содержание.md)
@@ -298,3 +299,10 @@ function aliceCopy(btn) {
   });
 }
 </script>
+=======
+
+← [00 — Обзор проекта](../00 — Обзор проекта.md) · [Архитектура (README)](../README.md)
+
+---
+↩️ [Содержание](../Содержание.md)
+>>>>>>> 58b679668214ac286933ee3ea99f70925b3e574d

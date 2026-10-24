@@ -18,6 +18,7 @@
 
 ## Зависимости
 [Config](Config.md) · [World_commands](World_commands.md) · [Sattings_block_cr](Sattings_block_cr.md) · [ManagerGuiCr](ManagerGuiCr.md) · [Move_person](Move_person.md) · [Core_res](Core_res.md)
+<<<<<<< HEAD
 
 ---
 ↩️ [Содержание](../Содержание.md)
@@ -228,3 +229,10 @@ function aliceCopy(btn) {
   });
 }
 </script>
+=======
+
+← [00 — Обзор проекта](../00 — Обзор проекта.md) · [Архитектура (README)](../README.md)
+
+---
+↩️ [Содержание](../Содержание.md)
+>>>>>>> 58b679668214ac286933ee3ea99f70925b3e574d

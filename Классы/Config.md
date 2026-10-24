@@ -23,6 +23,7 @@
 
 ## Кто использует
 [Ore](Ore.md), [Created_block](Created_block.md), [Move_class](Move_class.md), [Core_Spawn](Core_Spawn.md), [ORE_BLOCK](ORE_BLOCK.md).
+<<<<<<< HEAD
 
 ---
 ↩️ [Содержание](../Содержание.md)
@@ -336,3 +337,10 @@ function aliceCopy(btn) {
   });
 }
 </script>
+=======
+
+← [00 — Обзор проекта](../00 — Обзор проекта.md) · [Архитектура (README)](../README.md)
+
+---
+↩️ [Содержание](../Содержание.md)
+>>>>>>> 58b679668214ac286933ee3ea99f70925b3e574d

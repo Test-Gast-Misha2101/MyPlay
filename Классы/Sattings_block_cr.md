@@ -13,6 +13,7 @@
 
 ## Кто использует
 [Config](Config.md) (prefabs_sattings, created_pl) · [Core_Spawn](Core_Spawn.md) · [Created_block](Created_block.md) (Prefab_Go) · [ButtonCreateBlock](ButtonCreateBlock.md)
+<<<<<<< HEAD
 
 ---
 ↩️ [Содержание](../Содержание.md)
@@ -213,3 +214,10 @@ function aliceCopy(btn) {
   });
 }
 </script>
+=======
+
+← [00 — Обзор проекта](../00 — Обзор проекта.md)
+
+---
+↩️ [Содержание](../Содержание.md)
+>>>>>>> 58b679668214ac286933ee3ea99f70925b3e574d

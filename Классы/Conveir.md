@@ -18,6 +18,7 @@
 
 ## Кто использует
 [Mine_ore](Mine_ore.md) и [Core_res](Core_res.md) требуют его через RequireComponent; цепочка: Mine_ore → Conveir → Core_res.
+<<<<<<< HEAD
 
 ---
 ↩️ [Содержание](../Содержание.md)
@@ -239,3 +240,10 @@ function aliceCopy(btn) {
   });
 }
 </script>
+=======
+
+← [00 — Обзор проекта](../00 — Обзор проекта.md) · [Архитектура (README)](../README.md)
+
+---
+↩️ [Содержание](../Содержание.md)
+>>>>>>> 58b679668214ac286933ee3ea99f70925b3e574d

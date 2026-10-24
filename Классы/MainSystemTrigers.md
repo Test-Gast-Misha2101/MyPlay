@@ -18,6 +18,7 @@
 
 ## Кто использует
 [Move_class](Move_class.md) и [Mine_ore](Mine_ore.md) (фильтр `Update_Block`), [Created_block](Created_block.md) (сброс и перезапуск после постройки).
+<<<<<<< HEAD
 
 ---
 ↩️ [Содержание](../Содержание.md)
@@ -235,3 +236,10 @@ function aliceCopy(btn) {
   });
 }
 </script>
+=======
+
+← [00 — Обзор проекта](../00 — Обзор проекта.md) · [Архитектура (README)](../README.md)
+
+---
+↩️ [Содержание](../Содержание.md)
+>>>>>>> 58b679668214ac286933ee3ea99f70925b3e574d

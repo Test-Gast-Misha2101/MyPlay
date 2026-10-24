@@ -18,6 +18,7 @@
 
 ## Кто использует
 [BaseDate](BaseDate.md) (реестр `New_ore`), [Mine_ore](Mine_ore.md), [Conveir](Conveir.md), [Core_res](Core_res.md) (константа `ORE_BLOCKS.Null`).
+<<<<<<< HEAD
 
 ---
 ↩️ [Содержание](../Содержание.md)
@@ -267,3 +268,10 @@ function aliceCopy(btn) {
   });
 }
 </script>
+=======
+
+← [00 — Обзор проекта](../00 — Обзор проекта.md) · [Архитектура (README)](../README.md)
+
+---
+↩️ [Содержание](../Содержание.md)
+>>>>>>> 58b679668214ac286933ee3ea99f70925b3e574d
