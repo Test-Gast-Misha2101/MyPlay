@@ -52,7 +52,7 @@
 ## Кто использует
 Почти весь проект: [Config](Config.md), [Ore](Ore.md), [ORE_BLOCK](ORE_BLOCK.md), [Move_class](Move_class.md), [Conveir](Conveir.md), [Mine_ore](Mine_ore.md), [Core_res](Core_res.md), [Created_block](Created_block.md), [Core_Spawn](Core_Spawn.md), [ManagerGuiCr](ManagerGuiCr.md), [WorldGoDisasamble](WorldGoDisasamble.md), [ButtonCreateBlock](ButtonCreateBlock.md), [Sattings_block_cr](Sattings_block_cr.md) (косвенно).
 
-[Обзор проекта](Obz.md) · [Архитектура](README.md)
+[Обзор проекта](../Obz.md) · [Архитектура](../README.md)
 
 ---
-↩️ [Содержание](Содержание.md)
+↩️ [Содержание](../Содержание.md)
