@@ -24,12 +24,12 @@
 `Rect` (RectTransform), `Img`, `Text`, `RawImage`, `Mask`, `RectMask2D`, `Button`, `InputField`, `Toggle`, `ToggleGroup`, `Slider`, `Scrollbar`, `Dropdown`, `ScrollRect`, `Destroy`. События — через `JsonP.JsonPActionClass` / `JsonPActionTClass<T>` (onClick, onValueChanged, onEndEdit).
 
 ## Зависимости
-[[World_commands]] (JsonP, DicConv, Error) · [[WorldGoDisasamble]].
+[World_commands](World_command.md) (JsonP, DicConv, Error) · [WorldGoDisasamble](WorldGoDisasamble.md).
 
 ## Кто использует
-[[Core_Spawn]] (GuiCrMan) · [[Config]].created_pl (ReGameObject).
+[Core_Spawn](Core_Spawn.md) (GuiCrMan) · [Config](Config.md).created_pl (ReGameObject).
 
-← [[00 — Обзор проекта]] · [[Архитектура]]
+[Обзор проекта](../Obz.md) · [Архитектура](../README.md)
 
 ---
-↩️ [[Содержание]]
+↩️ [Содержание](../Содержание.md)
