@@ -1,0 +1,35 @@
+Я не могу найти ошибку при 
+{
+  \"add\": {
+    \"type\": \"JsonP\",
+    \"value\": \"{
+      \"name\": {
+        \"type\": \"System.String\",
+        \"value\": \"test\"
+      },
+      
+      \"path\": \"{
+        \"type\": \"System.String[]\",
+        \"value\": \"[]\"
+      }\"
+    }\"
+  }
+}
+в переменной [SerializeField, BigString(3, 10)] private string stGuiJsonp = "{}"; в файле Core_Spawn.cs ошибка 
+
+[Script("ManagerGuiCr")] parametrs == null
+UnityEngine.Debug:LogError(Object)
+World_command:Error(String, String) (at Assets/Scripts/World/World_commands.cs:968)
+ManagerGuiCr:.ctor(GameObject) (at Assets/Scripts/Gui/ManagerGuiCr.cs:367)
+Config:created_pl(Vector3, List`1, Core_res, GameObject&, Config, ManagerGuiCr&) (at Assets/Scripts/Config.cs:152)
+Core_Spawn:Start() (at Assets/Scripts/Core/Core_Spawn.cs:51)
+
+
+Exception: [Script("ManagerGuiCr")] parametrs == null
+World_command.Error (System.String name, System.String err) (at Assets/Scripts/World/World_commands.cs:969)
+ManagerGuiCr..ctor (UnityEngine.GameObject go) (at Assets/Scripts/Gui/ManagerGuiCr.cs:367)
+Config.created_pl (Vector3 pos, System.Collections.Generic.List`1 lprefab_Go, .Core_res g, UnityEngine.GameObject& go, .Config conf, .ManagerGuiCr& mgc) (at Assets/Scripts/Config.cs:152)
+Core_Spawn.Start () (at Assets/Scripts/Core/Core_Spawn.cs:51)
+
+
+не создаёт GameObject выводит ошибку
