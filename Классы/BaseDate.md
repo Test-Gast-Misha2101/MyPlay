@@ -11,12 +11,12 @@
 - `CreateNewObjOre(error, ore_Type, new_Ore)` — регистрация новой руды (ошибка при дубле или имени «Null»).
 
 ## Зависимости
-[[ORE_BLOCK]] (`New_ore`, `Flammogidrid`, `ORE_BLOCKS.Null`).
+[ORE_BLOCK](../ORE_BLOCK.md) (`New_ore`, `Flammogidrid`, `ORE_BLOCKS.Null`).
 
 ## Кто использует
-[[Core_res]] (заполнение запасов), [[Mine_ore]] (топливо `FireToplivo`).
+[Core_res](../Core_res.md) (заполнение запасов), [Mine_ore](../Mine_ore.md) (топливо `FireToplivo`).
 
-← [[00 — Обзор проекта]]
+[Обзор проекта](../00 - Обзор проекта.md)
 
 ---
-↩️ [[Содержание]]
+↩️ [Содержание](../Содержание.md)
