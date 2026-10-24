@@ -8,10 +8,10 @@
 - `GetPropertyHeight` — высота = singleLineHeight × maxLines.
 
 ## Зависимости
-[World_commands](../World_command.md) (BigStringAttribute), UnityEditor.
+[World_commands](World_command.md) (BigStringAttribute), UnityEditor.
 
 ## Кто использует
-[Core_Spawn](../Core_Spawn.md) — поле `stGuiJsonp` (`[BigString(3, 10)]`).
+[Core_Spawn](Core_Spawn.md) — поле `stGuiJsonp` (`[BigString(3, 10)]`).
 
 [Обзор проекта](../obz.md)
 
